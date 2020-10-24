@@ -29,8 +29,11 @@ function unleashDog(dogName, dogBreed) {
 }
 
 const routine = [
-    first_function,
-    second_function,
-    third_function,
-    forth_function
+wakeDog,
+leashDog,
+walkToPark,
+throwFrisbee,
+walkHome,
+unleashDog,
 ]
+
