@@ -27,3 +27,10 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   console.log(`Unlease ${dogName} the ${dogBreed}`);
 }
+
+const routine = [
+    first_function,
+    second_function,
+    third_function,
+    forth_function
+]
