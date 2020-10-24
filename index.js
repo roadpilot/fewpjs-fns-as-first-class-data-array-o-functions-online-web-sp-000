@@ -25,7 +25,7 @@ function walkHome(dogName, dogBreed) {
 // unleashDog
 // return("Unleash Byron the poodle");
 function unleashDog(dogName, dogBreed) {
-  return(`Unlease ${dogName} the ${dogBreed}`);
+  return(`Unleash ${dogName} the ${dogBreed}`);
 }
 
 const routine = [
