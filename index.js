@@ -1,3 +1,4 @@
+
 // console.log("Wake Byron the poodle");
 function wakeDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
@@ -34,6 +35,14 @@ leashDog,
 walkToPark,
 throwFrisbee,
 walkHome,
-unleashDog,
-]
+unleashDog
+];
+
+console.log(routine.length);
+function exerciseDog(dogName, dogBreed){
+	for (i=0; i<routine.length; i++){
+		routine[i](dogName, dogBreed);
+	}
+}
+exerciseDog(dogName, dogBreed);
 
