@@ -39,11 +39,11 @@ unleashDog
 
 //console.log(routine.length);
 function exerciseDog(dogName, dogBreed){
-	array = [];
+	let array0 = [];
 	for (i=0; i<routine.length; i++){
-		array.push(routine[i](dogName, dogBreed));
+		array0.push(routine[i](dogName, dogBreed));
 	}
-	return array;
+	return array0;
 }
 exerciseDog(dogName, dogBreed);
 
